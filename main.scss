@@ -1,0 +1,17 @@
+body{
+    background-color:dodgerblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+//    padding: 10rem;
+}
+
+
+.clockContainer{
+    border: 1px solid white;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin: 2rem;
+}
