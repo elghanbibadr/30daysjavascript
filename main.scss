@@ -38,24 +38,22 @@ body{
 
     }
     //   & :nth-child(3){
-    //    position: absolute;
+    //   position: absolute;
     //    margin-top: auto;
     //    margin-bottom: auto;
     //    top: 0;
-    //    text-align: center;
-    // //    right: 0;
+    // //    text-align: center;
     //    bottom: 0;
+    // // color: red;
 
 
-    //   }
+    //  }
 
 }
 .slide{
     width: 100px;
     height: 2px;
     margin: 0;
-    // display: inline-block;
-    // background-color: black;
     position: relative;
     top: 14rem;
     left: 50%;
@@ -64,9 +62,24 @@ body{
 }
 
 .secondSlider{
-    //  transform: rotate(10deg);
     top: 14.2rem;
     background-color: red;
+    width: 130px;
+}
+.circle{
+    height: 15px;
+    display: block;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-block: auto;
 }
 
 .minuteSlider{

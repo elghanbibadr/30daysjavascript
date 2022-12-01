@@ -58,6 +58,23 @@ body {
 .secondSlider {
   top: 14.2rem;
   background-color: red;
+  width: 130px;
+}
+
+.circle {
+  height: 15px;
+  display: block;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-block: auto;
 }
 
 .minuteSlider {
